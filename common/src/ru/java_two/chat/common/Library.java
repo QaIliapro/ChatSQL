@@ -1,4 +1,4 @@
-package ru.java_two.chat.comman;
+package ru.java_two.chat.common;
 
 public class Library {
     public static final String DELIMITER = "±";

@@ -1,10 +1,10 @@
 package ru.java_two.chat.server.core;
 
-import ru.java_two.chat.comman.Library;
-import ru.java_two.network.ServerSocketThread;
-import ru.java_two.network.ServerSocketThreadListener;
-import ru.java_two.network.SocketThread;
-import ru.java_two.network.SocketThreadListener;
+import ru.java_two.chat.common.Library;
+import ru.java_two.chat.network.ServerSocketThread;
+import ru.java_two.chat.network.ServerSocketThreadListener;
+import ru.java_two.chat.network.SocketThread;
+import ru.java_two.chat.network.SocketThreadListener;
 
 import java.net.ServerSocket;
 import java.net.Socket;

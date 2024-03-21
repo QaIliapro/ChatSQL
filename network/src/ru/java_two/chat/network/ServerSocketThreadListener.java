@@ -1,13 +1,13 @@
-package ru.java_two.network;
+package ru.java_two.chat.network;
 
 import java.net.ServerSocket;
 import java.net.Socket;
 
 public interface ServerSocketThreadListener {//try
-    void onServerStart(ru.java_two.network.ServerSocketThread thread);
-    void onServerStop(ru.java_two.network.ServerSocketThread thread);
-    void onServerSocketCreated(ru.java_two.network.ServerSocketThread thread, ServerSocket server);
-    void onServerTimeout(ru.java_two.network.ServerSocketThread thread, ServerSocket server);
-    void onServerException(ru.java_two.network.ServerSocketThread thread, Throwable exception);
-    void onSocketAccepted(ru.java_two.network.ServerSocketThread thread, ServerSocket server, Socket socket);
+    void onServerStart(ServerSocketThread thread);
+    void onServerStop(ServerSocketThread thread);
+    void onServerSocketCreated(ServerSocketThread thread, ServerSocket server);
+    void onServerTimeout(ServerSocketThread thread, ServerSocket server);
+    void onServerException(ServerSocketThread thread, Throwable exception);
+    void onSocketAccepted(ServerSocketThread thread, ServerSocket server, Socket socket);
 }

@@ -1,20 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="62488872-3572-4c05-98f3-190fea28cd94" name="Changes" comment="" />
+    <list default="true" id="62488872-3572-4c05-98f3-190fea28cd94" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/chat-server/sqlite-jdbc-3.45.1.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat-client/chat-client.iml" beforeDir="false" afterPath="$PROJECT_DIR$/chat-client/chat-client.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat-client/src/ru/java_two/chat/client/ClientGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/chat-client/src/ru/java_two/chat/client/ClientGUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat-server/chat-server.iml" beforeDir="false" afterPath="$PROJECT_DIR$/chat-server/chat-server.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat-server/src/ru/java_two/chat/server/core/ChatServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/chat-server/src/ru/java_two/chat/server/core/ChatServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat-server/src/ru/java_two/chat/server/core/ClientThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/chat-server/src/ru/java_two/chat/server/core/ClientThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat-server/src/ru/java_two/chat/server/core/SqlClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/chat-server/src/ru/java_two/chat/server/core/SqlClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/ru/java_two/chat/common/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/ru/java_two/chat/common/Library.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/network/src/ru/java_two/chat/network/ServerSocketThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/network/src/ru/java_two/chat/network/ServerSocketThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/network/src/ru/java_two/chat/network/ServerSocketThreadListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/network/src/ru/java_two/chat/network/ServerSocketThreadListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/network/src/ru/java_two/chat/network/SocketThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/network/src/ru/java_two/chat/network/SocketThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/network/src/ru/java_two/chat/network/SocketThreadListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/network/src/ru/java_two/chat/network/SocketThreadListener.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2dzbqdg4SNrgUiOCkB4zFAKFESF" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -24,9 +54,56 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "jdk.selected.JAVA_MODULE": "21",
+    "last_opened_file_path": "C:/Users/wolto/IdeaProjects/ChatSQL/chat-server/sqlite-jdbc-3.45.1.0.jar",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\wolto\IdeaProjects\ChatSQL\.idea" />
+      <recent name="C:\Users\wolto\IdeaProjects\ChatSQL\chat-server" />
+      <recent name="C:\Users\wolto\IdeaProjects\ChatSQL\chat-server\src\ru\java_two\chat\server" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.ClientGUI">
+    <configuration name="ClientGUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.java_two.chat.client.ClientGUI" />
+      <module name="chat-client" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.java_two.chat.client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServerGUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.java_two.chat.server.gui.ServerGUI" />
+      <module name="chat-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.java_two.chat.server.gui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ClientGUI" />
+        <item itemvalue="Application.ServerGUI" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">

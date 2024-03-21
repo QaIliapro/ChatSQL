@@ -1,4 +1,4 @@
-package ru.java_two.network;
+package ru.java_two.chat.network;
 
 import java.io.IOException;
 import java.net.ServerSocket;

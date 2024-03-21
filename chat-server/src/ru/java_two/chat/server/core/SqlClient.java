@@ -1,6 +1,10 @@
 package ru.java_two.chat.server.core;
 
-import java.sql.*;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
 
 public class SqlClient {
     private static Connection connection;
