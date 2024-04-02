@@ -12,7 +12,7 @@ public class SqlClient {
     synchronized static void connect() {
         try { //try
             Class.forName("org.sqlite.JDBC");
-            connection = DriverManager.getConnection("jdbc:sqlite:chat-server/chat-server");
+            connection = DriverManager.getConnection("jdbc:sqlite:chat-server/chat-server.db");
             statement = connection.createStatement();
         }catch (ClassNotFoundException | SQLException e) {
             throw new RuntimeException(e);

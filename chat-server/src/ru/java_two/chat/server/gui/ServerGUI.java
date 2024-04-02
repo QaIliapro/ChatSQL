@@ -21,21 +21,49 @@ public class ServerGUI extends JFrame implements ActionListener, Thread.Uncaught
     private final JTextArea log = new JTextArea();
 
     public static void main(String[] args) {
-
-        SwingUtilities.invokeLater(new Runnable() { //try
-            @Override
-            public void run() {
-                new ServerGUI();
-            }
+        SwingUtilities.invokeLater(() -> new ServerGUI() {
         });
     }
-    private ServerGUI() {
+
+    public ServerGUI() {
+
         Thread.setDefaultUncaughtExceptionHandler(this);
+
+        setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
+        setBounds(POS_X, POS_Y, WIDTH, HEIGHT);
+        setResizable(false);
+        setTitle("Chat server");
+        setAlwaysOnTop(true);
+
+        log.setEditable(false);
+        log.setLineWrap(true);
+
+        JScrollPane scrollLog = new JScrollPane(log);
+
+        /**Лямбда выражение от ананимного класса реализущего интерфейс new ActionListener() -> actionPerformed(ActionEvent e)*/
+        //btnStart.addActionListener(e -> chatServer.start(8189));
+
+        //так как мы используем сам интерфейс и переопределили метод интерфейса
+        // ActionListener() -> actionPerformed(ActionEvent e) то мы можем реализовать вот такую запись и в методе
+        // провести проверку того какой btn нажат
+        btnStart.addActionListener(this);
+        btnStop.addActionListener(this);
+
+        panelTop.add(btnStart);
+        panelTop.add(btnStop);
+        add(panelTop, BorderLayout.NORTH);
+        add(scrollLog, BorderLayout.CENTER);
+        setVisible(true);
+    }
+    /*public ServerGUI() {
+        Thread.setDefaultUncaughtExceptionHandler(this);
+
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         setBounds(POS_X,POS_Y,WIDTH,HEIGHT);
         setResizable(false);
         setTitle("Chat server");
         setAlwaysOnTop(true);
+
         setLayout(new GridLayout(1, 2));
 
         btnStart.addActionListener(this);
@@ -44,7 +72,7 @@ public class ServerGUI extends JFrame implements ActionListener, Thread.Uncaught
         add(btnStop);
 
         setVisible(true);
-    }
+    }*/
 
     @Override
     public void actionPerformed(ActionEvent e) {//try

@@ -15,7 +15,9 @@
           <root url="jar://$MODULE_DIR$/sqlite-jdbc-3.45.1.0.jar!/" />
         </CLASSES>
         <JAVADOC />
-        <SOURCES />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.ideaLibSources/sqlite-jdbc-3.45.1.0-sources.jar!/" />
+        </SOURCES>
       </library>
     </orderEntry>
   </component>

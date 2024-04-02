@@ -42,12 +42,7 @@ public class ClientGUI extends JFrame implements ActionListener, Thread.Uncaught
     private final String WINDOW_TITLE = "Chat";
 
     public static void main(String[] args)  {
-
-        SwingUtilities.invokeLater(new Runnable() {
-            @Override
-            public void run() {
-                new ClientGUI();
-            }
+        SwingUtilities.invokeLater(() -> new ClientGUI() {
         });
     }
 

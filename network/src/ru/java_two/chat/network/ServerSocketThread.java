@@ -21,6 +21,7 @@ public class ServerSocketThread extends Thread {
     @Override
     public void run() { //try
         listener.onServerStart(this);
+
         try(ServerSocket server = new ServerSocket(port)) {
             server.setSoTimeout(timeout);
             listener.onServerSocketCreated(this,server);

@@ -51,13 +51,13 @@ public class ChatServer implements ServerSocketThreadListener, SocketThreadListe
      * Сервер
      */
     @Override //try
-    public void onServerStart(ServerSocketThread thread) {
+    public void onServerStart(ServerSocketThread thread) {//try
         putLog("Server thread started");
         SqlClient.connect();
     }
 
     @Override //try
-    public void onServerStop(ServerSocketThread thread) {
+    public void onServerStop(ServerSocketThread thread) {//try
         putLog("Server thread stopped");
         SqlClient.disconnect();
         //добавил не было
@@ -85,6 +85,7 @@ public class ChatServer implements ServerSocketThreadListener, SocketThreadListe
     public void onSocketAccepted(ServerSocketThread thread, ServerSocket server, Socket socket) {
         putLog("Client connect");
         String name = "SocketThread " + socket.getInetAddress() + ":" + socket.getPort();
+        System.out.println(name);
         new ClientThread(this, name, socket);
     }
 
@@ -162,7 +163,7 @@ public class ChatServer implements ServerSocketThreadListener, SocketThreadListe
         switch (msgType) {
             case Library.TYPE_BROADCAST_CLIENT:
                 sendToAllAuthorizedClients(Library.getTypeBroadcast(
-                        client.getNickname(), msg));
+                        client.getNickname(), arr[1]));
                 break;
             default:
                 client.msgFormatError(msg);

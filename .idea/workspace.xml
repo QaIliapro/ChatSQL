@@ -5,19 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="62488872-3572-4c05-98f3-190fea28cd94" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/chat-server/sqlite-jdbc-3.45.1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-server/sqlite-jdbc-3.32.3.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat-client/chat-client.iml" beforeDir="false" afterPath="$PROJECT_DIR$/chat-client/chat-client.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/chat-client/src/ru/java_two/chat/client/ClientGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/chat-client/src/ru/java_two/chat/client/ClientGUI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/chat-server/chat-server.iml" beforeDir="false" afterPath="$PROJECT_DIR$/chat-server/chat-server.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/chat-server/src/ru/java_two/chat/server/core/ChatServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/chat-server/src/ru/java_two/chat/server/core/ChatServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat-server/src/ru/java_two/chat/server/core/ClientThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/chat-server/src/ru/java_two/chat/server/core/ClientThread.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/chat-server/src/ru/java_two/chat/server/core/SqlClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/chat-server/src/ru/java_two/chat/server/core/SqlClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/ru/java_two/chat/common/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/ru/java_two/chat/common/Library.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat-server/src/ru/java_two/chat/server/gui/ServerGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/chat-server/src/ru/java_two/chat/server/gui/ServerGUI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/network/src/ru/java_two/chat/network/ServerSocketThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/network/src/ru/java_two/chat/network/ServerSocketThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/network/src/ru/java_two/chat/network/ServerSocketThreadListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/network/src/ru/java_two/chat/network/ServerSocketThreadListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/network/src/ru/java_two/chat/network/SocketThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/network/src/ru/java_two/chat/network/SocketThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/network/src/ru/java_two/chat/network/SocketThreadListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/network/src/ru/java_two/chat/network/SocketThreadListener.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,17 +56,21 @@
     "last_opened_file_path": "C:/Users/wolto/IdeaProjects/ChatSQL/chat-server/sqlite-jdbc-3.45.1.0.jar",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.externalResources"
   }
 }]]></component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\wolto\IdeaProjects\ChatSQL\.idea" />
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\wolto\IdeaProjects\ChatSQL\chat-server" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\wolto\IdeaProjects\ChatSQL\chat-server" />
+      <recent name="C:\Users\wolto\IdeaProjects\ChatSQL\.idea" />
       <recent name="C:\Users\wolto\IdeaProjects\ChatSQL\chat-server\src\ru\java_two\chat\server" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ClientGUI">
+  <component name="RunManager" selected="Application.ServerGUI">
     <configuration name="ClientGUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.java_two.chat.client.ClientGUI" />
       <module name="chat-client" />
@@ -99,8 +99,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ClientGUI" />
         <item itemvalue="Application.ServerGUI" />
+        <item itemvalue="Application.ClientGUI" />
       </list>
     </recent_temporary>
   </component>
@@ -114,5 +114,20 @@
       <updated>1711014049254</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/network/src/ru/java_two/chat/network/ServerSocketThread.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
